@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" >
+	<title></title>
+</head>
+<body>
+
+<!-- <h1>Bienvenido</h1>
+<h1 class="rojo">Curso Full Stack</h1>
+<p class="rojo" onclick="cambiarMensaje()">Unitec</p>
+<p id="fecha">26-09-2018</p> -->
+<div class="col-6">
+	<form>
+	  <h1>Calculadora IVA</h1>
+	  <div class="form-group">
+	    <label for="precioProducto">Ingrese el precio del producto:</label>
+	    <input type="number" class="form-control" id="precioProducto" value="0" min="0">
+	  </div>
+	  <input class="btn btn-primary" type="button" name="boton" value="Calcular" onclick="calcularIva()" >
+	  <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+	</form>
+	<h2>El iva a pagar es: <span id="resultadoIva"></span></h2>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script type="text/javascript" src="scripts/main.js"></script>
+</body>
+</html>
